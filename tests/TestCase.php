@@ -33,7 +33,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
         $this->artisan('migrate', [
             '--database' => 'testing',
             '--realpath' => true,
-            '--path' => __DIR__ . '/fixture/database/migrations/',
+            '--path'     => __DIR__.'/fixture/database/migrations/',
         ])->assertSuccessful();
     }
 
@@ -50,13 +50,14 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
      */
     private function setUpStorage(): void
     {
-        $this->app->useStoragePath(__DIR__ . '/fixture/storage');
+        $this->app->useStoragePath(__DIR__.'/fixture/storage');
     }
 
     /**
      * Resolve application Console Kernel implementation.
      *
      * @param \Illuminate\Foundation\Application $app
+     *
      * @return void
      */
     protected function resolveApplicationConsoleKernel($app)

@@ -12,7 +12,7 @@ trait FilesystemAsserts
      */
     protected function assertDirectoryEmpty(string $path): void
     {
-        $glob = Str::finish($path, '/') . '*';
+        $glob = Str::finish($path, '/').'*';
         $this->assertEmpty(File::glob($glob), "Failed asserting that directory `{$path}` is empty.");
     }
 
@@ -21,7 +21,7 @@ trait FilesystemAsserts
      */
     protected function assertDirectoryNotEmpty(string $path): void
     {
-        $glob = Str::finish($path, '/') . '*';
+        $glob = Str::finish($path, '/').'*';
         $this->assertNotEmpty(File::glob($glob), "Failed asserting that directory `{$path}` is not empty.");
     }
 
