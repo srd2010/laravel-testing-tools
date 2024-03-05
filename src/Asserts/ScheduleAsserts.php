@@ -74,6 +74,7 @@ trait ScheduleAsserts
     {
         if (method_exists($event, $expression)) {
             $event->$expression();
+
             return $event->getExpression();
         }
 
