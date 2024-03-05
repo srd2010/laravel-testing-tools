@@ -75,9 +75,9 @@ trait LogFileAsserts
     private function composeRegexPattern(string $message): string
     {
         $pattern = '/'
-            . preg_quote($message, '/')
-            . (Str::startsWith($message, 'array:') ? '' : '\n')
-            . '/';
+            .preg_quote($message, '/')
+            .(Str::startsWith($message, 'array:') ? '' : '\n')
+            .'/';
 
         return str_replace('%datetime%', '\d{4}-\d{2}-\d{2} \d{2}\:\d{2}\:\d{2}', $pattern);
     }
