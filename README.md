@@ -7,14 +7,14 @@
 
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" />](https://www.buymeacoffee.com/frank.stuhec)
 
-[![StyleCI](https://github.styleci.io/repos/75414626/shield?branch=master&style=flat)](https://github.styleci.io/repos/75414626?branch=master)
+[![StyleCI](https://github.styleci.io/repos/767365520/shield?branch=master)](https://github.styleci.io/repos/767365520?branch=master)
 [![Build Status](https://img.shields.io/github/workflow/status/srd2010/laravel-testing-tools/tests/master)](https://github.com/srd2010/laravel-testing-tools/actions?query=workflow%3Atests+branch%3Amaster)
-[![Coverage Status](https://img.shields.io/codecov/c/github/dmitry-ivanov/laravel-testing-tools/master)](https://app.codecov.io/gh/dmitry-ivanov/laravel-testing-tools/branch/master)
+[![codecov](https://codecov.io/gh/srd2010/laravel-testing-tools/graph/badge.svg?token=KNRD3TFT6R)](https://codecov.io/gh/srd2010/laravel-testing-tools)
 
-![Packagist Version](https://img.shields.io/packagist/v/illuminated/testing-tools)
-![Packagist Stars](https://img.shields.io/packagist/stars/illuminated/testing-tools)
-![Packagist Downloads](https://img.shields.io/packagist/dt/illuminated/testing-tools)
-![Packagist License](https://img.shields.io/packagist/l/illuminated/testing-tools)
+![Packagist Version](https://img.shields.io/packagist/v/srd2010/testing-tools)
+![Packagist Stars](https://img.shields.io/packagist/stars/srd2010/testing-tools)
+![Packagist Downloads](https://img.shields.io/packagist/dt/srd2010/laravel-testing-tools)
+![Packagist License](https://img.shields.io/packagist/l/srd2010/testing-tools)
 
 Laravel-specific Testing Helpers and Assertions.
 
