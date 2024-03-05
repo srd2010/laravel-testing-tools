@@ -39,7 +39,7 @@ Laravel-specific Testing Helpers and Assertions.
 1. Install the package via Composer:
 
     ```shell script
-    composer require --dev illuminated/testing-tools
+    composer require --dev srd2010/testing-tools
     ```
 
 2. Use `Illuminated\Testing\TestingTools` trait:
