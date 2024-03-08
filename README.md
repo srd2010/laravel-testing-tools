@@ -8,7 +8,8 @@
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" />](https://www.buymeacoffee.com/frank.stuhec)
 
 [![StyleCI](https://github.styleci.io/repos/767365520/shield?branch=master)](https://github.styleci.io/repos/767365520?branch=master)
-[![Build Status](https://img.shields.io/github/workflow/status/srd2010/laravel-testing-tools/tests/master)](https://github.com/srd2010/laravel-testing-tools/actions?query=workflow%3Atests+branch%3Amaster)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/srd2010/laravel-testing-tools/tests.yml?branch=master)](https://github.com/srd2010/laravel-testing-tools/actions?query=workflow%3Atests+branch%3Amaster)
+
 [![codecov](https://codecov.io/gh/srd2010/laravel-testing-tools/graph/badge.svg?token=KNRD3TFT6R)](https://codecov.io/gh/srd2010/laravel-testing-tools)
 
 ![Packagist Version](https://img.shields.io/packagist/v/srd2010/testing-tools)
